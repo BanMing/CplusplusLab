@@ -1,6 +1,6 @@
 #include <iostream>
-//#include "extern_test/main.cpp"
-#include "const_test/GamePlayerTest.cpp"
+#include "common_test/Customer.cpp"
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
     Run();
