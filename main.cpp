@@ -1,5 +1,5 @@
 #include <iostream>
-#include "common_test/Customer.cpp"
+#include "common_test/Rational.cpp"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;

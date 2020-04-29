@@ -20,13 +20,18 @@ private:
 // 复制rhs的数据
 Customer::Customer(const Customer &rhs) : name(rhs.name) {
     logCall("Customer copy constructor");
+//    trl::shared_prt<>
 }
 
 Customer &Customer::operator=(const Customer &rhs) {
     logCall("Customer copy assignment operator");
     name = rhs.name; //复制rhs的数据
-    return *this;   
+    return *this;
 }
 
-void Run() {}
+typedef std::string AddressLines[4];
+
+void Run() {
+
+}
 
