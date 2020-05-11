@@ -1,5 +1,5 @@
 #include <iostream>
-#include "common_test/SwapTest.cpp"
+#include "common_test/Test40.cpp"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
