@@ -21,12 +21,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c77d8565-56b6-4c01-b071-85e7e45c0b9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common_test/Shape.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_test/Test40.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_4_28,_7_35_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_4_28__7_35_AM__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_test/Test49.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_test/Point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common_test/Point.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,7 @@
       <workItem from="1588413316586" duration="167000" />
       <workItem from="1588689620942" duration="2159000" />
       <workItem from="1588775948049" duration="824000" />
-      <workItem from="1588807615527" duration="2426000" />
+      <workItem from="1588807615527" duration="4276000" />
     </task>
     <servers />
   </component>
