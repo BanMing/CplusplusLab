@@ -1,5 +1,5 @@
 #include <iostream>
-#include "common_test/TreeNodeTest.cpp"
+#include "common_test/common_test.cpp"
 
 int main()
 {
