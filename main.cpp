@@ -1,5 +1,5 @@
 #include <iostream>
-#include "common_test/common_test.cpp"
+#include "math_test/fixed_point_numbers.cpp"
 
 int main()
 {

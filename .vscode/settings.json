@@ -6,6 +6,8 @@
         "*.wxs": "javascript",
         "vector": "cpp",
         "stack": "cpp",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "xlocale": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
