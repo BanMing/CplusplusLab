@@ -1,5 +1,5 @@
 #include <iostream>
-#include "common_test/sizeof.cpp"
+#include "common_test/struct_size.cpp"
 
 int main()
 {
