@@ -58,5 +58,6 @@
         "xtr1common": "cpp",
         "xutility": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "cmake.languageSupport.dotnetPath": "/usr/local/share/dotnet/dotnet"
 }

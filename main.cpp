@@ -1,5 +1,5 @@
 #include <iostream>
-#include "common_test/struct_size.cpp"
+#include "common_test/cast_test.cpp"
 
 int main()
 {
