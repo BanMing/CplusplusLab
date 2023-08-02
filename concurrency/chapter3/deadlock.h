@@ -21,11 +21,12 @@ public:
         {
             return;
         }
-
+        
+        // can throw the exception
         std::lock(lhs.m, rhs.m);
         std::lock_guard<std::mutex> lock_a(lhs.m, std::adopt_lock);
         std::lock_guard<std::mutex> lock_b(rhs.m, std::adopt_lock);
-        swap(lhs.some_detail,rhs.some_detail);
+        swap(lhs.some_detail, rhs.some_detail);
     }
 };
 
