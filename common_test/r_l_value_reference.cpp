@@ -73,15 +73,43 @@ vector<int> partialSum(const vector<int> arr)
     return result;
 }
 
+class A
+{
+public:
+    int a;
+};
+
+class B
+{
+public:
+   const A *b;
+};
+
+void Test1(const A *testa)
+{
+    B* b = new B();
+    b->b = testa;
+}
+
+void Test()
+{
+    A *testa = new A();
+    testa->a = 3;
+    Test1(testa);
+    printf("value %d",testa->a);
+}
+
 void Run()
 {
-    lvalue_reference();
+    // lvalue_reference();
 
-    vector<LagreType> vec;
-    LagreType item1 = randomItem1(vec);       // 复制
-    LagreType item2 = randomItem2(vec);       // 复制
-    const LagreType item3 = randomItem2(vec); // 不复制
+    // vector<LagreType> vec;
+    // LagreType item1 = randomItem1(vec);       // 复制
+    // LagreType item2 = randomItem2(vec);       // 复制
+    // const LagreType item3 = randomItem2(vec); // 不复制
 
-    vector<int> vec1;
-    vector<int> sums = partialSum(vec1); // 在老c++中是复制，在c++中是移动
+    // vector<int> vec1;
+    // vector<int> sums = partialSum(vec1); // 在老c++中是复制，在c++中是移动
+
+    Test();
 }

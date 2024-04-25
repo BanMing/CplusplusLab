@@ -1,6 +1,7 @@
 #include <iostream>
 const int ad = 3;
-#include "common_test/point_test.cpp"
+// #include "common_test/VirtualTemplate.cpp"
+#include "template/compare_test.h"
 
 int main()
 {
