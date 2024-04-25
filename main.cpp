@@ -1,7 +1,7 @@
 #include <iostream>
 const int ad = 3;
 // #include "common_test/VirtualTemplate.cpp"
-#include "template/compare_test.h"
+#include "template/class_test.h"
 
 int main()
 {

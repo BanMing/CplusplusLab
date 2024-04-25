@@ -3,12 +3,14 @@
 #include <string>
 #include <vector>
 
+// 16.2
 template <typename T>
 int compare(const T &a, const T &b)
 {
     return a < b ? 1 : -1;
 }
 
+// 16.4
 template <typename TContainer, typename TValue>
 bool find(const TContainer &container, const TValue &findValue)
 {
@@ -33,7 +35,7 @@ void Test1()
     printf("find \"4\" in b %d \n", find(b, std::string("4")));
     printf("find \"3\" in b %d \n", find(b, std::string("3")));
 }
-
+// 16.5
 template <typename T, size_t N>
 void prints(const T (&container)[N])
 {
@@ -51,14 +53,34 @@ void Test2()
     prints(a);
     prints(b);
 }
+
+// 16.6
 template <typename T, size_t N>
-int getArrayNum(const T (&a)[N])
+T *begin(const T (&a)[N])
+{
+    return &a[0];
+}
+
+template <typename T, size_t N>
+T *end(const T (&a)[N])
+{
+    return &a[0] + N;
+}
+
+// 16.7
+template <typename T, size_t N>
+constexpr int getArrayNum(const T (&a)[N])
 {
     return N;
 }
 
-void Run()
+void Test4()
 {
     int a[6] = {2, 3, 4, 5, 6, 7};
     printf("a num:%d\n", getArrayNum(a));
+}
+
+void Run()
+{
+
 }
